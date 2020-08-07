@@ -1,4 +1,5 @@
-################## Pacman Instructions ####################
+###### Pacman Instructions ######
+
 ##Implement##
 1. *Breadth-first search in the class BFSAgent*, 
 2. *Depth-first search in the class DFSAgent*, 
