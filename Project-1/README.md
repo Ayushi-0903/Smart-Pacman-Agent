@@ -1,13 +1,13 @@
 ###### Pacman Instructions ######
 
-##Implement##
-1. *Breadth-first search in the class BFSAgent*, 
-2. *Depth-first search in the class DFSAgent*, 
-3. *A* search in the class AStarAgent*,
+## Implement ##
+1. * Breadth-first search in the class BFSAgent *, 
+2. * Depth-first search in the class DFSAgent *, 
+3. * A* search in the class AStarAgent *,
 within the in pacmanAgents.py file, using admissibleHeuristic as a heuristic function for the AStarAgent.
 
 
-##Notes:##
+## Notes: ##
 ⁃ Python 2.7 is required to run the Framework.
 ⁃ External libraries are not used.
 ⁃ I used these system functions:
@@ -23,7 +23,7 @@ within the in pacmanAgents.py file, using admissibleHeuristic as a heuristic fun
 ⁃ For array sorting, you can use python internal sorting function. example: array.sort(key=lambda x: admissibleHeuristic(x)). This example sort the array based on the admissibleHeuristic function.
 
 
-##How to run:##
+## How to run: ##
 ⁃ To play pacman:
 python pacman.py
 ⁃ To run a certain agent using graphics use the following command:
