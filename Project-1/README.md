@@ -1,4 +1,4 @@
-# Pacman Instructions#
+# Pacman Instructions #
 
 ## Implement ##
 1. **Breadth-first search in the class BFSAgent**, 
