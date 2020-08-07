@@ -11,11 +11,11 @@ within the in pacmanAgents.py file, using admissibleHeuristic as a heuristic fun
 1.  Python 2.7 is required to run the Framework.
 2.  External libraries are not used.
 3.  I used these system functions:
-  - state.getLegalPacmanActions(): return all the legal actions in this state
-  - state.generatePacmanSuccessor(action): return the next state if pacman take a certain action (return a new copy, doesn’t modify the current state)
-  - admissibleHeuristic(state): estimates the remaining cost from the current state to the goal state
-  - state.isWin(): check if this state is win state
-  - state.isLose(): check if this state is lose state
+     - state.getLegalPacmanActions(): return all the legal actions in this state
+     - state.generatePacmanSuccessor(action): return the next state if pacman take a certain action (return a new copy, doesn’t modify the current state)
+     - admissibleHeuristic(state): estimates the remaining cost from the current state to the goal state
+     - state.isWin(): check if this state is win state
+     - state.isLose(): check if this state is lose state
 4.  For A* algorithm: f(n) = g(n) + h(n)
 5.  f(n): the total cost of the next node
 6.  g(n): is the cost of the path since the start node (in this exercise, this cost is the depth of the current node, i.e. the number of actions from the start till that node)
